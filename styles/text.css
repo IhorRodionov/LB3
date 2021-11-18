@@ -1,0 +1,13 @@
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+}
+p::first-letter() {
+  color: purple;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.school-start {
+  text-align: center;
+  color: #06614d;
+}

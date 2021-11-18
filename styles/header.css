@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+  color: #06614d;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+}
+h2 {
+  text-align: center;
+  color: #06614d;
+  padding-top: 5px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+}
+
+.panel {
+  padding: 40px;
+  background-color: rgb(0, 255, 34);
+  display: none;
+  overflow: hidden;
+}

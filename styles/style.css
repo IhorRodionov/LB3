@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.body_hide {
+  transition: 2s opacity ease-out;
+  opacity: 0;
+}
+
+.body_visible {
+  opacity: 1;
+  background-color: rgb(221, 233, 170);
+
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+	min-height: 100%;
+}
+
+.foreign-lang {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.list-foreign-lang,
+.subjects-list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+.list-foreign-lang li {
+  padding-left: 20px;
+}
+#container {
+  width: 1800px;
+  padding-left: 40px;
+  display: none;
+}
+
+.subjects-list li {
+  padding-left: 20px;
+}
+.future li + li {
+  padding-top: 20px;
+}
+.future a {
+  padding: 10px;
+}
+
+.future a:hover {
+  color: #fff;
+  background-color: #06614d;
+  border: 1px;
+}
+
+.imperators {
+  display: flex;
+  justify-content: center;
+}
+.imperator-img {
+  width: 1100px;
+}
+@media print {
+  * {
+    color: Black;
+    background-color: White;
+  }
+}
+
+
+.about-me{
+  display: flex;
+}
+
+
+
